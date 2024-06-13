@@ -319,6 +319,10 @@ a {
   position: relative;
   height: 100%;
 }
+.micro-app-weather-backdrop-brTMWg .micro-app-weather-mask-cbLwap {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
 .micro-app-weather-bgPanel-B6Wke4 {
   height: 100%;
   background-color: #201f1e;
@@ -454,7 +458,6 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  filter: blur(15px);
 }
 
 .micro-app-weather-copyright-_5zZL8 {
