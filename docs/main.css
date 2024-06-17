@@ -227,7 +227,8 @@ a {
   height: 100%;
   width: 100%;
   position: relative;
-  color: #e3e3e3;
+  color: #fff;
+  text-shadow: 0 0 0.06rem rgba(0, 0, 0, 0.2);
 }
 .micro-app-weather-mainContainer-VsQE1N .micro-app-weather-panel-iQtYYx {
   display: flex;
@@ -254,7 +255,8 @@ a {
   justify-content: space-between;
   height: 100%;
   position: relative;
-  color: #e3e3e3;
+  color: #fff;
+  text-shadow: 0 0 0.06rem rgba(0, 0, 0, 0.2);
 }
 .micro-app-weather-miniContainer-Tkd0vI .micro-app-weather-header-dDKpTz {
   height: 48px;
@@ -319,10 +321,6 @@ a {
   position: relative;
   height: 100%;
 }
-.micro-app-weather-backdrop-brTMWg .micro-app-weather-mask-cbLwap {
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-}
 .micro-app-weather-bgPanel-B6Wke4 {
   height: 100%;
   background-color: #201f1e;
@@ -376,7 +374,8 @@ a {
 .micro-app-weather-listPanel-bSoFz5 h3 {
   font-size: 13px;
   margin-bottom: 8px;
-  color: rgba(255, 255, 255, 0.65);
+  color: #fff;
+  text-shadow: 0 0 0.06rem rgba(0, 0, 0, 0.2);
 }
 .micro-app-weather-listPanel-bSoFz5 ul {
   list-style: none;
@@ -399,11 +398,11 @@ a {
   border-radius: 4px;
 }
 .micro-app-weather-listPanel-bSoFz5 ul li:first-child {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(255, 255, 255, 0.08);
   border-left: none;
 }
 .micro-app-weather-listPanel-bSoFz5 ul li:hover {
-  background-color: rgba(0, 0, 0, 0.06);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 .micro-app-weather-listPanel-bSoFz5 ul li .micro-app-weather-text-bWuF6f {
   line-height: 20px;
@@ -430,21 +429,8 @@ a {
   width: 100%;
   height: 100%;
   flex: 1;
-  border-radius: 12px;
-  margin-right: 12px;
   overflow: hidden;
   position: relative;
-}
-.micro-app-weather-layout-HBoKko .micro-app-weather-mainContainer-BFt30f::before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  box-shadow: inset 0px 1px 8px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 12px;
-  pointer-events: auto;
-  z-index: 1;
 }
 .micro-app-weather-layout-HBoKko .micro-app-weather-miniContainer-kY3XGV {
   max-width: 320px;
@@ -462,8 +448,8 @@ a {
 
 .micro-app-weather-copyright-_5zZL8 {
   font-size: 12px;
-  color: #e3e3e3;
-  opacity: 0.45;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   line-height: 16px;
   text-align: center;
   padding: 8px 0;
@@ -560,199 +546,5 @@ a {
   65% {
     transform: scale3d(1.1, 1.1, 1.1);
   }
-}
-
-.micro-app-weather-sunny_d-H0Q1Aw {
-  background-image: linear-gradient(35deg, #154280 30%, #335693, #a8b3d2);
-}
-.micro-app-weather-sunny_n-KvO8e3 {
-  background-image: linear-gradient(45deg, #000012 20%, #29334e);
-}
-.micro-app-weather-cloudy_d-CVD3vq {
-  background-image: linear-gradient(35deg, #054989 30%, #72ade0);
-}
-.micro-app-weather-cloudy_n-daG24i {
-  background-image: linear-gradient(35deg, #191a2e 30%, #4c5f7f);
-}
-.micro-app-weather-yin_d-Gp4rqR {
-  background-image: linear-gradient(35deg, #354564 30%, #4c5f7f, #8b9bb8);
-}
-.micro-app-weather-yin_n-aQ8zbD {
-  background-image: linear-gradient(45deg, #211e22 20%, #383a3e);
-}
-.micro-app-weather-haze_d-EtjmkS {
-  background-image: linear-gradient(45deg, #8d8882 20%, #bbb7af);
-}
-.micro-app-weather-haze_n-yihTpl {
-  background-image: linear-gradient(45deg, #1b1712 20%, #5b4c49);
-}
-.micro-app-weather-foggy_d-OFulI9 {
-  background-image: linear-gradient(45deg, #789fb8 20%, #6386a3);
-}
-.micro-app-weather-foggy_n-UflJ_P {
-  background-image: linear-gradient(45deg, #6c7682 20%, #535d69);
-}
-
-.micro-app-weather-container-dD1AqC {
-  height: 100%;
-  width: 100%;
-  background-color: #201f1e;
-  color: #e3e3e3;
-  position: relative;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-panel-hAUptu {
-  display: flex;
-  flex-flow: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 32px 32px 0 32px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-bgCover-KCZKjm {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-copyright-MwkF1x {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD {
-  display: flex;
-  width: 100%;
-  margin-bottom: 16px;
-  align-items: center;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-nowPanel-JEnqP6 {
-  flex: 1;
-  margin-right: 16px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-nowPanel-JEnqP6 .micro-app-weather-weatherNowtmp-jrMs3x {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-nowPanel-JEnqP6 .micro-app-weather-weatherNowtmp-jrMs3x .micro-app-weather-nowTmp-_zQpgf {
-  font-size: 80px;
-  line-height: 76px;
-  height: 76px;
-  margin-right: 20px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-nowPanel-JEnqP6 .micro-app-weather-weatherNowtmp-jrMs3x .micro-app-weather-info-j0nRpm {
-  text-align: left;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-nowPanel-JEnqP6 .micro-app-weather-weatherNowtmp-jrMs3x .micro-app-weather-info-j0nRpm > div {
-  margin: 4px 0;
-  line-height: 20px;
-  height: 20px;
-  font-size: 13px;
-  width: 200px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-nowPanel-JEnqP6 .micro-app-weather-weatherNowtmp-jrMs3x .micro-app-weather-info-j0nRpm > div span {
-  margin-left: 8px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-weatherInfo-QGC9NT {
-  width: 100%;
-  margin-left: 16px;
-  display: flex;
-  font-size: 12px;
-  flex: 1;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: space-around;
-  height: 100%;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-topPanel-U5VlYD .micro-app-weather-weatherInfo-QGC9NT > div {
-  width: 33.33%;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-hoursPanel-leSuj2 {
-  width: 100%;
-  margin-bottom: 16px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-hoursPanel-leSuj2.micro-app-weather-listPanel-sriqUv ul li {
-  padding: 2px 0;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-hoursPanel-leSuj2 .micro-app-weather-linePanel-iuYhCL {
-  top: 42px;
-  bottom: 2px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-weekPanel-Z9xcu0 {
-  width: 100%;
-  margin-bottom: 48px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-weekPanel-Z9xcu0 .micro-app-weather-linePanel-iuYhCL {
-  top: 50px;
-  bottom: 30px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv {
-  display: flex;
-  flex-direction: column;
-  padding: 12px;
-  border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.03);
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv h3 {
-  font-size: 12px;
-  margin-bottom: 8px;
-  color: rgba(255, 255, 255, 0.4);
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv ul {
-  list-style: none;
-  display: flex;
-  flex: 1;
-  position: relative;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv ul li {
-  width: 100%;
-  font-size: 12px;
-  padding: 10px 0;
-  border-left: 1px solid rgba(255, 255, 255, 0.05);
-  text-align: center;
-  transition: background 0.2s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv ul li:first-child {
-  background-color: rgba(255, 255, 255, 0.08);
-  border-left: none;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv ul li:hover {
-  background-color: rgba(255, 255, 255, 0.06);
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv ul li .micro-app-weather-text-fQIGns {
-  line-height: 20px;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv .micro-app-weather-linePanel-iuYhCL {
-  position: absolute;
-  width: 100%;
-  z-index: 0;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-listPanel-sriqUv .micro-app-weather-linePanel-iuYhCL > div {
-  width: 100%;
-  height: 100%;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-flex1-sHxLni {
-  flex: 1;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-flex2-Sk4Nm2 {
-  flex: 2;
-}
-.micro-app-weather-container-dD1AqC .micro-app-weather-flex4-kYyXUe {
-  flex: 4;
 }
 
