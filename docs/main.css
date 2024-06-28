@@ -1,4 +1,3 @@
-@import url(https://cdn.jsdelivr.net/npm/qweather-icons@1.6.0/font/qweather-icons.css);
 :root {
   /* 标题 */
   --title-color: rgba(0, 0, 0, 0.85);
@@ -34,6 +33,1613 @@ a {
   width: 100%;
   height: 100%;
 }
+@font-face {
+  font-family: "qweather-icons";
+  src: url(/micro-app-weather/ead97bf086c4943f6fce.woff2) format("woff2"), url(/micro-app-weather/31d0f5acdc37dd2d8642.woff) format("woff"), url(/micro-app-weather/91c47723f483873b6e7b.ttf) format("truetype");
+}
+#root [class^="qi-"]::before, #root [class*=" qi-"]::before {
+  content: '';
+  display: inline-block;
+  font-family: "qweather-icons" !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root .qi-100::before {
+  content: "\f101";
+}
+#root .qi-101::before {
+  content: "\f102";
+}
+#root .qi-102::before {
+  content: "\f103";
+}
+#root .qi-103::before {
+  content: "\f104";
+}
+#root .qi-104::before {
+  content: "\f105";
+}
+#root .qi-150::before {
+  content: "\f106";
+}
+#root .qi-151::before {
+  content: "\f107";
+}
+#root .qi-152::before {
+  content: "\f108";
+}
+#root .qi-153::before {
+  content: "\f109";
+}
+#root .qi-300::before {
+  content: "\f10a";
+}
+#root .qi-301::before {
+  content: "\f10b";
+}
+#root .qi-302::before {
+  content: "\f10c";
+}
+#root .qi-303::before {
+  content: "\f10d";
+}
+#root .qi-304::before {
+  content: "\f10e";
+}
+#root .qi-305::before {
+  content: "\f10f";
+}
+#root .qi-306::before {
+  content: "\f110";
+}
+#root .qi-307::before {
+  content: "\f111";
+}
+#root .qi-308::before {
+  content: "\f112";
+}
+#root .qi-309::before {
+  content: "\f113";
+}
+#root .qi-310::before {
+  content: "\f114";
+}
+#root .qi-311::before {
+  content: "\f115";
+}
+#root .qi-312::before {
+  content: "\f116";
+}
+#root .qi-313::before {
+  content: "\f117";
+}
+#root .qi-314::before {
+  content: "\f118";
+}
+#root .qi-315::before {
+  content: "\f119";
+}
+#root .qi-316::before {
+  content: "\f11a";
+}
+#root .qi-317::before {
+  content: "\f11b";
+}
+#root .qi-318::before {
+  content: "\f11c";
+}
+#root .qi-350::before {
+  content: "\f11d";
+}
+#root .qi-351::before {
+  content: "\f11e";
+}
+#root .qi-399::before {
+  content: "\f11f";
+}
+#root .qi-400::before {
+  content: "\f120";
+}
+#root .qi-401::before {
+  content: "\f121";
+}
+#root .qi-402::before {
+  content: "\f122";
+}
+#root .qi-403::before {
+  content: "\f123";
+}
+#root .qi-404::before {
+  content: "\f124";
+}
+#root .qi-405::before {
+  content: "\f125";
+}
+#root .qi-406::before {
+  content: "\f126";
+}
+#root .qi-407::before {
+  content: "\f127";
+}
+#root .qi-408::before {
+  content: "\f128";
+}
+#root .qi-409::before {
+  content: "\f129";
+}
+#root .qi-410::before {
+  content: "\f12a";
+}
+#root .qi-456::before {
+  content: "\f12b";
+}
+#root .qi-457::before {
+  content: "\f12c";
+}
+#root .qi-499::before {
+  content: "\f12d";
+}
+#root .qi-500::before {
+  content: "\f12e";
+}
+#root .qi-501::before {
+  content: "\f12f";
+}
+#root .qi-502::before {
+  content: "\f130";
+}
+#root .qi-503::before {
+  content: "\f131";
+}
+#root .qi-504::before {
+  content: "\f132";
+}
+#root .qi-507::before {
+  content: "\f133";
+}
+#root .qi-508::before {
+  content: "\f134";
+}
+#root .qi-509::before {
+  content: "\f135";
+}
+#root .qi-510::before {
+  content: "\f136";
+}
+#root .qi-511::before {
+  content: "\f137";
+}
+#root .qi-512::before {
+  content: "\f138";
+}
+#root .qi-513::before {
+  content: "\f139";
+}
+#root .qi-514::before {
+  content: "\f13a";
+}
+#root .qi-515::before {
+  content: "\f13b";
+}
+#root .qi-800::before {
+  content: "\f13c";
+}
+#root .qi-801::before {
+  content: "\f13d";
+}
+#root .qi-802::before {
+  content: "\f13e";
+}
+#root .qi-803::before {
+  content: "\f13f";
+}
+#root .qi-804::before {
+  content: "\f140";
+}
+#root .qi-805::before {
+  content: "\f141";
+}
+#root .qi-806::before {
+  content: "\f142";
+}
+#root .qi-807::before {
+  content: "\f143";
+}
+#root .qi-900::before {
+  content: "\f144";
+}
+#root .qi-901::before {
+  content: "\f145";
+}
+#root .qi-999::before {
+  content: "\f146";
+}
+#root .qi-1001::before {
+  content: "\f147";
+}
+#root .qi-1002::before {
+  content: "\f148";
+}
+#root .qi-1003::before {
+  content: "\f149";
+}
+#root .qi-1004::before {
+  content: "\f14a";
+}
+#root .qi-1005::before {
+  content: "\f14b";
+}
+#root .qi-1006::before {
+  content: "\f14c";
+}
+#root .qi-1007::before {
+  content: "\f14d";
+}
+#root .qi-1008::before {
+  content: "\f14e";
+}
+#root .qi-1009::before {
+  content: "\f14f";
+}
+#root .qi-1010::before {
+  content: "\f150";
+}
+#root .qi-1011::before {
+  content: "\f151";
+}
+#root .qi-1012::before {
+  content: "\f152";
+}
+#root .qi-1013::before {
+  content: "\f153";
+}
+#root .qi-1014::before {
+  content: "\f154";
+}
+#root .qi-1015::before {
+  content: "\f155";
+}
+#root .qi-1016::before {
+  content: "\f156";
+}
+#root .qi-1017::before {
+  content: "\f157";
+}
+#root .qi-1018::before {
+  content: "\f158";
+}
+#root .qi-1019::before {
+  content: "\f159";
+}
+#root .qi-1020::before {
+  content: "\f15a";
+}
+#root .qi-1021::before {
+  content: "\f15b";
+}
+#root .qi-1022::before {
+  content: "\f15c";
+}
+#root .qi-1023::before {
+  content: "\f15d";
+}
+#root .qi-1024::before {
+  content: "\f15e";
+}
+#root .qi-1025::before {
+  content: "\f15f";
+}
+#root .qi-1026::before {
+  content: "\f160";
+}
+#root .qi-1027::before {
+  content: "\f161";
+}
+#root .qi-1028::before {
+  content: "\f162";
+}
+#root .qi-1029::before {
+  content: "\f163";
+}
+#root .qi-1030::before {
+  content: "\f164";
+}
+#root .qi-1031::before {
+  content: "\f165";
+}
+#root .qi-1032::before {
+  content: "\f166";
+}
+#root .qi-1033::before {
+  content: "\f167";
+}
+#root .qi-1034::before {
+  content: "\f168";
+}
+#root .qi-1035::before {
+  content: "\f169";
+}
+#root .qi-1036::before {
+  content: "\f16a";
+}
+#root .qi-1037::before {
+  content: "\f16b";
+}
+#root .qi-1038::before {
+  content: "\f16c";
+}
+#root .qi-1039::before {
+  content: "\f16d";
+}
+#root .qi-1040::before {
+  content: "\f16e";
+}
+#root .qi-1041::before {
+  content: "\f16f";
+}
+#root .qi-1042::before {
+  content: "\f170";
+}
+#root .qi-1043::before {
+  content: "\f171";
+}
+#root .qi-1044::before {
+  content: "\f172";
+}
+#root .qi-1045::before {
+  content: "\f173";
+}
+#root .qi-1046::before {
+  content: "\f174";
+}
+#root .qi-1047::before {
+  content: "\f175";
+}
+#root .qi-1048::before {
+  content: "\f176";
+}
+#root .qi-1049::before {
+  content: "\f177";
+}
+#root .qi-1050::before {
+  content: "\f178";
+}
+#root .qi-1051::before {
+  content: "\f179";
+}
+#root .qi-1052::before {
+  content: "\f17a";
+}
+#root .qi-1053::before {
+  content: "\f17b";
+}
+#root .qi-1054::before {
+  content: "\f17c";
+}
+#root .qi-1055::before {
+  content: "\f17d";
+}
+#root .qi-1056::before {
+  content: "\f17e";
+}
+#root .qi-1057::before {
+  content: "\f17f";
+}
+#root .qi-1058::before {
+  content: "\f180";
+}
+#root .qi-1059::before {
+  content: "\f181";
+}
+#root .qi-1060::before {
+  content: "\f182";
+}
+#root .qi-1061::before {
+  content: "\f183";
+}
+#root .qi-1062::before {
+  content: "\f184";
+}
+#root .qi-1063::before {
+  content: "\f185";
+}
+#root .qi-1064::before {
+  content: "\f186";
+}
+#root .qi-1065::before {
+  content: "\f187";
+}
+#root .qi-1066::before {
+  content: "\f188";
+}
+#root .qi-1067::before {
+  content: "\f189";
+}
+#root .qi-1068::before {
+  content: "\f18a";
+}
+#root .qi-1069::before {
+  content: "\f18b";
+}
+#root .qi-1071::before {
+  content: "\f18c";
+}
+#root .qi-1072::before {
+  content: "\f18d";
+}
+#root .qi-1073::before {
+  content: "\f18e";
+}
+#root .qi-1074::before {
+  content: "\f18f";
+}
+#root .qi-1075::before {
+  content: "\f190";
+}
+#root .qi-1076::before {
+  content: "\f191";
+}
+#root .qi-1077::before {
+  content: "\f192";
+}
+#root .qi-1078::before {
+  content: "\f193";
+}
+#root .qi-1079::before {
+  content: "\f194";
+}
+#root .qi-1080::before {
+  content: "\f195";
+}
+#root .qi-1081::before {
+  content: "\f196";
+}
+#root .qi-1082::before {
+  content: "\f197";
+}
+#root .qi-1084::before {
+  content: "\f198";
+}
+#root .qi-1085::before {
+  content: "\f199";
+}
+#root .qi-1086::before {
+  content: "\f19a";
+}
+#root .qi-1087::before {
+  content: "\f19b";
+}
+#root .qi-1088::before {
+  content: "\f19c";
+}
+#root .qi-1089::before {
+  content: "\f19d";
+}
+#root .qi-1101::before {
+  content: "\f19e";
+}
+#root .qi-1302::before {
+  content: "\f19f";
+}
+#root .qi-1402::before {
+  content: "\f1a0";
+}
+#root .qi-1601::before {
+  content: "\f1a1";
+}
+#root .qi-1602::before {
+  content: "\f1a2";
+}
+#root .qi-1603::before {
+  content: "\f1a3";
+}
+#root .qi-1604::before {
+  content: "\f1a4";
+}
+#root .qi-1605::before {
+  content: "\f1a5";
+}
+#root .qi-1606::before {
+  content: "\f1a6";
+}
+#root .qi-1607::before {
+  content: "\f1a7";
+}
+#root .qi-1701::before {
+  content: "\f1a8";
+}
+#root .qi-1702::before {
+  content: "\f1a9";
+}
+#root .qi-1703::before {
+  content: "\f1aa";
+}
+#root .qi-2001::before {
+  content: "\f1ab";
+}
+#root .qi-2002::before {
+  content: "\f1ac";
+}
+#root .qi-2003::before {
+  content: "\f1ad";
+}
+#root .qi-2004::before {
+  content: "\f1ae";
+}
+#root .qi-2005::before {
+  content: "\f1af";
+}
+#root .qi-2006::before {
+  content: "\f1b0";
+}
+#root .qi-2007::before {
+  content: "\f1b1";
+}
+#root .qi-2008::before {
+  content: "\f1b2";
+}
+#root .qi-2009::before {
+  content: "\f1b3";
+}
+#root .qi-2010::before {
+  content: "\f1b4";
+}
+#root .qi-2011::before {
+  content: "\f1b5";
+}
+#root .qi-2012::before {
+  content: "\f1b6";
+}
+#root .qi-2013::before {
+  content: "\f1b7";
+}
+#root .qi-2014::before {
+  content: "\f1b8";
+}
+#root .qi-2015::before {
+  content: "\f1b9";
+}
+#root .qi-2016::before {
+  content: "\f1ba";
+}
+#root .qi-2017::before {
+  content: "\f1bb";
+}
+#root .qi-2018::before {
+  content: "\f1bc";
+}
+#root .qi-2019::before {
+  content: "\f1bd";
+}
+#root .qi-2020::before {
+  content: "\f1be";
+}
+#root .qi-2021::before {
+  content: "\f1bf";
+}
+#root .qi-2022::before {
+  content: "\f1c0";
+}
+#root .qi-2023::before {
+  content: "\f1c1";
+}
+#root .qi-2024::before {
+  content: "\f1c2";
+}
+#root .qi-2025::before {
+  content: "\f1c3";
+}
+#root .qi-2026::before {
+  content: "\f1c4";
+}
+#root .qi-2027::before {
+  content: "\f1c5";
+}
+#root .qi-2028::before {
+  content: "\f1c6";
+}
+#root .qi-2052::before {
+  content: "\f1c7";
+}
+#root .qi-2053::before {
+  content: "\f1c8";
+}
+#root .qi-2054::before {
+  content: "\f1c9";
+}
+#root .qi-9998::before {
+  content: "\f1ca";
+}
+#root .qi-9999::before {
+  content: "\f1cb";
+}
+#root .qi-100-fill::before {
+  content: "\f1cc";
+}
+#root .qi-101-fill::before {
+  content: "\f1cd";
+}
+#root .qi-102-fill::before {
+  content: "\f1ce";
+}
+#root .qi-103-fill::before {
+  content: "\f1cf";
+}
+#root .qi-104-fill::before {
+  content: "\f1d0";
+}
+#root .qi-150-fill::before {
+  content: "\f1d1";
+}
+#root .qi-151-fill::before {
+  content: "\f1d2";
+}
+#root .qi-152-fill::before {
+  content: "\f1d3";
+}
+#root .qi-153-fill::before {
+  content: "\f1d4";
+}
+#root .qi-300-fill::before {
+  content: "\f1d5";
+}
+#root .qi-301-fill::before {
+  content: "\f1d6";
+}
+#root .qi-302-fill::before {
+  content: "\f1d7";
+}
+#root .qi-303-fill::before {
+  content: "\f1d8";
+}
+#root .qi-304-fill::before {
+  content: "\f1d9";
+}
+#root .qi-305-fill::before {
+  content: "\f1da";
+}
+#root .qi-306-fill::before {
+  content: "\f1db";
+}
+#root .qi-307-fill::before {
+  content: "\f1dc";
+}
+#root .qi-308-fill::before {
+  content: "\f1dd";
+}
+#root .qi-309-fill::before {
+  content: "\f1de";
+}
+#root .qi-310-fill::before {
+  content: "\f1df";
+}
+#root .qi-311-fill::before {
+  content: "\f1e0";
+}
+#root .qi-312-fill::before {
+  content: "\f1e1";
+}
+#root .qi-313-fill::before {
+  content: "\f1e2";
+}
+#root .qi-314-fill::before {
+  content: "\f1e3";
+}
+#root .qi-315-fill::before {
+  content: "\f1e4";
+}
+#root .qi-316-fill::before {
+  content: "\f1e5";
+}
+#root .qi-317-fill::before {
+  content: "\f1e6";
+}
+#root .qi-318-fill::before {
+  content: "\f1e7";
+}
+#root .qi-350-fill::before {
+  content: "\f1e8";
+}
+#root .qi-351-fill::before {
+  content: "\f1e9";
+}
+#root .qi-399-fill::before {
+  content: "\f1ea";
+}
+#root .qi-400-fill::before {
+  content: "\f1eb";
+}
+#root .qi-401-fill::before {
+  content: "\f1ec";
+}
+#root .qi-402-fill::before {
+  content: "\f1ed";
+}
+#root .qi-403-fill::before {
+  content: "\f1ee";
+}
+#root .qi-404-fill::before {
+  content: "\f1ef";
+}
+#root .qi-405-fill::before {
+  content: "\f1f0";
+}
+#root .qi-406-fill::before {
+  content: "\f1f1";
+}
+#root .qi-407-fill::before {
+  content: "\f1f2";
+}
+#root .qi-408-fill::before {
+  content: "\f1f3";
+}
+#root .qi-409-fill::before {
+  content: "\f1f4";
+}
+#root .qi-410-fill::before {
+  content: "\f1f5";
+}
+#root .qi-456-fill::before {
+  content: "\f1f6";
+}
+#root .qi-457-fill::before {
+  content: "\f1f7";
+}
+#root .qi-499-fill::before {
+  content: "\f1f8";
+}
+#root .qi-500-fill::before {
+  content: "\f1f9";
+}
+#root .qi-501-fill::before {
+  content: "\f1fa";
+}
+#root .qi-502-fill::before {
+  content: "\f1fb";
+}
+#root .qi-503-fill::before {
+  content: "\f1fc";
+}
+#root .qi-504-fill::before {
+  content: "\f1fd";
+}
+#root .qi-507-fill::before {
+  content: "\f1fe";
+}
+#root .qi-508-fill::before {
+  content: "\f1ff";
+}
+#root .qi-509-fill::before {
+  content: "\f200";
+}
+#root .qi-510-fill::before {
+  content: "\f201";
+}
+#root .qi-511-fill::before {
+  content: "\f202";
+}
+#root .qi-512-fill::before {
+  content: "\f203";
+}
+#root .qi-513-fill::before {
+  content: "\f204";
+}
+#root .qi-514-fill::before {
+  content: "\f205";
+}
+#root .qi-515-fill::before {
+  content: "\f206";
+}
+#root .qi-900-fill::before {
+  content: "\f207";
+}
+#root .qi-901-fill::before {
+  content: "\f208";
+}
+#root .qi-999-fill::before {
+  content: "\f209";
+}
+#root .qi-qweather-fill::before {
+  content: "\f20a";
+}
+#root .qi-qweather::before {
+  content: "\f20b";
+}
+#root .qi-sunny::before {
+  content: "\f101";
+}
+#root .qi-cloudy::before {
+  content: "\f102";
+}
+#root .qi-few-clouds::before {
+  content: "\f103";
+}
+#root .qi-partly-cloudy::before {
+  content: "\f104";
+}
+#root .qi-overcast::before {
+  content: "\f105";
+}
+#root .qi-clear-night::before {
+  content: "\f106";
+}
+#root .qi-cloudy-night::before {
+  content: "\f107";
+}
+#root .qi-few-clouds-night::before {
+  content: "\f108";
+}
+#root .qi-partly-cloudy-night::before {
+  content: "\f109";
+}
+#root .qi-shower-rain::before {
+  content: "\f10a";
+}
+#root .qi-heavy-shower-rain::before {
+  content: "\f10b";
+}
+#root .qi-thundershower::before {
+  content: "\f10c";
+}
+#root .qi-heavy-thunderstorm::before {
+  content: "\f10d";
+}
+#root .qi-thundershower-with-hail::before {
+  content: "\f10e";
+}
+#root .qi-light-rain::before {
+  content: "\f10f";
+}
+#root .qi-moderate-rain::before {
+  content: "\f110";
+}
+#root .qi-heavy-rain::before {
+  content: "\f111";
+}
+#root .qi-extreme-rain::before {
+  content: "\f112";
+}
+#root .qi-drizzle-rain::before {
+  content: "\f113";
+}
+#root .qi-storm::before {
+  content: "\f1c9";
+}
+#root .qi-heavy-storm::before {
+  content: "\f115";
+}
+#root .qi-severe-storm::before {
+  content: "\f116";
+}
+#root .qi-freezing-rain::before {
+  content: "\f117";
+}
+#root .qi-light-to-moderate-rain::before {
+  content: "\f118";
+}
+#root .qi-moderate-to-heavy-rain::before {
+  content: "\f119";
+}
+#root .qi-heavy-rain-to-storm::before {
+  content: "\f11a";
+}
+#root .qi-storm-to-heavy-storm::before {
+  content: "\f11b";
+}
+#root .qi-heavy-to-severe-storm::before {
+  content: "\f11c";
+}
+#root .qi-shower-rain-night::before {
+  content: "\f11d";
+}
+#root .qi-heavy-shower-rain-night::before {
+  content: "\f11e";
+}
+#root .qi-rain::before {
+  content: "\f11f";
+}
+#root .qi-light-snow::before {
+  content: "\f120";
+}
+#root .qi-moderate-snow::before {
+  content: "\f121";
+}
+#root .qi-heavy-snow::before {
+  content: "\f122";
+}
+#root .qi-snowstorm::before {
+  content: "\f123";
+}
+#root .qi-sleet::before {
+  content: "\f124";
+}
+#root .qi-rain-and-snow::before {
+  content: "\f125";
+}
+#root .qi-shower-snow::before {
+  content: "\f126";
+}
+#root .qi-snow-flurry::before {
+  content: "\f127";
+}
+#root .qi-light-to-moderate-snow::before {
+  content: "\f128";
+}
+#root .qi-moderate-to-heavy-snow::before {
+  content: "\f129";
+}
+#root .qi-heavy-snow-to-snowstorm::before {
+  content: "\f12a";
+}
+#root .qi-shower-snow-night::before {
+  content: "\f12b";
+}
+#root .qi-snow-flurry-night::before {
+  content: "\f12c";
+}
+#root .qi-snow::before {
+  content: "\f12d";
+}
+#root .qi-mist::before {
+  content: "\f12e";
+}
+#root .qi-foggy::before {
+  content: "\f12f";
+}
+#root .qi-haze::before {
+  content: "\f130";
+}
+#root .qi-sand::before {
+  content: "\f131";
+}
+#root .qi-dust::before {
+  content: "\f132";
+}
+#root .qi-duststorm::before {
+  content: "\f133";
+}
+#root .qi-sandstorm::before {
+  content: "\f134";
+}
+#root .qi-dense-fog::before {
+  content: "\f135";
+}
+#root .qi-strong-fog::before {
+  content: "\f136";
+}
+#root .qi-moderate-haze::before {
+  content: "\f137";
+}
+#root .qi-heavy-haze::before {
+  content: "\f138";
+}
+#root .qi-severe-haze::before {
+  content: "\f139";
+}
+#root .qi-heavy-fog::before {
+  content: "\f13a";
+}
+#root .qi-extra-heavy-fog::before {
+  content: "\f13b";
+}
+#root .qi-new-moon::before {
+  content: "\f13c";
+}
+#root .qi-waxing-crescent::before {
+  content: "\f13d";
+}
+#root .qi-first-quarter::before {
+  content: "\f13e";
+}
+#root .qi-waxing-gibbous::before {
+  content: "\f13f";
+}
+#root .qi-full-moon::before {
+  content: "\f140";
+}
+#root .qi-waning-gibbous::before {
+  content: "\f141";
+}
+#root .qi-last-quarter::before {
+  content: "\f142";
+}
+#root .qi-waning-crescent::before {
+  content: "\f143";
+}
+#root .qi-hot::before {
+  content: "\f144";
+}
+#root .qi-cold::before {
+  content: "\f145";
+}
+#root .qi-unknown::before {
+  content: "\f146";
+}
+#root .qi-typhoon::before {
+  content: "\f147";
+}
+#root .qi-tornado::before {
+  content: "\f148";
+}
+#root .qi-rainstorm::before {
+  content: "\f149";
+}
+#root .qi-snow-storm::before {
+  content: "\f14a";
+}
+#root .qi-cold-wave::before {
+  content: "\f14b";
+}
+#root .qi-gale::before {
+  content: "\f14c";
+}
+#root .qi-sandstorm-warning::before {
+  content: "\f14d";
+}
+#root .qi-low-temperature-freeze::before {
+  content: "\f19a";
+}
+#root .qi-high-temperature::before {
+  content: "\f14f";
+}
+#root .qi-heat-wave::before {
+  content: "\f150";
+}
+#root .qi-dry-hot-wind::before {
+  content: "\f151";
+}
+#root .qi-downburst::before {
+  content: "\f152";
+}
+#root .qi-avalanche::before {
+  content: "\f153";
+}
+#root .qi-lightning::before {
+  content: "\f154";
+}
+#root .qi-hail::before {
+  content: "\f155";
+}
+#root .qi-frost::before {
+  content: "\f156";
+}
+#root .qi-heavy-fog-warning::before {
+  content: "\f157";
+}
+#root .qi-low-level-wind-shearl::before {
+  content: "\f158";
+}
+#root .qi-haze-warning::before {
+  content: "\f159";
+}
+#root .qi-thunder-gust::before {
+  content: "\f15a";
+}
+#root .qi-road-icing::before {
+  content: "\f15b";
+}
+#root .qi-drought::before {
+  content: "\f15c";
+}
+#root .qi-gale-at-sea::before {
+  content: "\f15d";
+}
+#root .qi-heat-stroke::before {
+  content: "\f15e";
+}
+#root .qi-wildfire::before {
+  content: "\f15f";
+}
+#root .qi-grassland-fire::before {
+  content: "\f160";
+}
+#root .qi-freeze::before {
+  content: "\f161";
+}
+#root .qi-space-weather::before {
+  content: "\f162";
+}
+#root .qi-heavy-air-pollution::before {
+  content: "\f163";
+}
+#root .qi-low-temperature-rain-and-snow::before {
+  content: "\f164";
+}
+#root .qi-strong-convection::before {
+  content: "\f165";
+}
+#root .qi-ozone::before {
+  content: "\f166";
+}
+#root .qi-heavy-snow-warning::before {
+  content: "\f167";
+}
+#root .qi-cold-warning::before {
+  content: "\f168";
+}
+#root .qi-continuous-rain::before {
+  content: "\f169";
+}
+#root .qi-waterlogging::before {
+  content: "\f16a";
+}
+#root .qi-geological-hazard::before {
+  content: "\f16b";
+}
+#root .qi-heavy-rainfall::before {
+  content: "\f16c";
+}
+#root .qi-severely-falling-temperature::before {
+  content: "\f16d";
+}
+#root .qi-snow-disaster::before {
+  content: "\f16e";
+}
+#root .qi-wildfire-grassland::before {
+  content: "\f16f";
+}
+#root .qi-medical-meteorology::before {
+  content: "\f170";
+}
+#root .qi-thunderstorm::before {
+  content: "\f171";
+}
+#root .qi-school-closure::before {
+  content: "\f172";
+}
+#root .qi-factory-closure::before {
+  content: "\f173";
+}
+#root .qi-maritime-risk::before {
+  content: "\f174";
+}
+#root .qi-spring-dust::before {
+  content: "\f175";
+}
+#root .qi-falling-temperature::before {
+  content: "\f176";
+}
+#root .qi-typhoon-and-rainstorm::before {
+  content: "\f177";
+}
+#root .qi-severe-cold::before {
+  content: "\f178";
+}
+#root .qi-sand-dust::before {
+  content: "\f179";
+}
+#root .qi-sea-thunderstorms::before {
+  content: "\f17a";
+}
+#root .qi-sea-fog::before {
+  content: "\f17b";
+}
+#root .qi-sea-thunder::before {
+  content: "\f17c";
+}
+#root .qi-sea-typhoon::before {
+  content: "\f17d";
+}
+#root .qi-low-temperature::before {
+  content: "\f17e";
+}
+#root .qi-road-ice-and-snow::before {
+  content: "\f17f";
+}
+#root .qi-thunderstorm-and-gale::before {
+  content: "\f180";
+}
+#root .qi-continuous-low-temperature::before {
+  content: "\f181";
+}
+#root .qi-low-visibility::before {
+  content: "\f182";
+}
+#root .qi-strong-dust::before {
+  content: "\f183";
+}
+#root .qi-gale-in-sea-area::before {
+  content: "\f184";
+}
+#root .qi-short-duration-heavy-shower-rain::before {
+  content: "\f185";
+}
+#root .qi-short-lived-heavy-shower-rain::before {
+  content: "\f186";
+}
+#root .qi-sea-area-fog::before {
+  content: "\f187";
+}
+#root .qi-heat-stroke-conditions::before {
+  content: "\f188";
+}
+#root .qi-heavy-pollution-weather::before {
+  content: "\f189";
+}
+#root .qi-co-poisoning-weather-conditions::before {
+  content: "\f18a";
+}
+#root .qi-respiratory-disease-weather-wonditions::before {
+  content: "\f18b";
+}
+#root .qi-intestinal-disease-weather-wonditions::before {
+  content: "\f18c";
+}
+#root .qi-cardiovascular-disease-weather-wonditions::before {
+  content: "\f18d";
+}
+#root .qi-flooding-weather-risk::before {
+  content: "\f18e";
+}
+#root .qi-heavy-pollution-weather-conditions::before {
+  content: "\f18f";
+}
+#root .qi-urban-flooding-weather-risk::before {
+  content: "\f190";
+}
+#root .qi-flooding-weather-risk-2::before {
+  content: "\f191";
+}
+#root .qi-wildfire-weather-risk::before {
+  content: "\f192";
+}
+#root .qi-meteorological-drought::before {
+  content: "\f193";
+}
+#root .qi-agricultural-weather-risk::before {
+  content: "\f194";
+}
+#root .qi-strong-monsoon::before {
+  content: "\f195";
+}
+#root .qi-ice-accretion-on-wire::before {
+  content: "\f196";
+}
+#root .qi-stroke-weather-risk::before {
+  content: "\f197";
+}
+#root .qi-wildfire-grassland-risk::before {
+  content: "\f198";
+}
+#root .qi-thunderstorm-and-strong-winds::before {
+  content: "\f199";
+}
+#root .qi-low-temperature-damage::before {
+  content: "\f19b";
+}
+#root .qi-national-agricultural-meteorological-risk::before {
+  content: "\f19c";
+}
+#root .qi-dry-hot-wind-risk-for-winter-wheat::before {
+  content: "\f19d";
+}
+#root .qi-flood::before {
+  content: "\f19e";
+}
+#root .qi-mudflow::before {
+  content: "\f19f";
+}
+#root .qi-storm-surge::before {
+  content: "\f1a0";
+}
+#root .qi-very-hot-weather::before {
+  content: "\f1a1";
+}
+#root .qi-strong-monsoon-signal::before {
+  content: "\f1a2";
+}
+#root .qi-landslip::before {
+  content: "\f1a3";
+}
+#root .qi-tropical-cyclone::before {
+  content: "\f1a4";
+}
+#root .qi-fire-danger::before {
+  content: "\f1a5";
+}
+#root .qi-flooding-in-the-northern-new-territories::before {
+  content: "\f1a6";
+}
+#root .qi-cold-weather::before {
+  content: "\f1a7";
+}
+#root .qi-cold-surge-advisory::before {
+  content: "\f1a8";
+}
+#root .qi-strong-wind-advisory::before {
+  content: "\f1a9";
+}
+#root .qi-rainfall-advisory::before {
+  content: "\f1aa";
+}
+#root .qi-wind-warning::before {
+  content: "\f1ab";
+}
+#root .qi-snow-ice::before {
+  content: "\f1ac";
+}
+#root .qi-fog::before {
+  content: "\f1ad";
+}
+#root .qi-coastal-event::before {
+  content: "\f1ae";
+}
+#root .qi-forest-fire::before {
+  content: "\f1af";
+}
+#root .qi-rain-warning::before {
+  content: "\f1b0";
+}
+#root .qi-rain-flood::before {
+  content: "\f1b1";
+}
+#root .qi-freezing-rain-icing::before {
+  content: "\f1b2";
+}
+#root .qi-ground-frost::before {
+  content: "\f1b3";
+}
+#root .qi-dust-raising-winds::before {
+  content: "\f1b4";
+}
+#root .qi-strong-surface-winds::before {
+  content: "\f1b5";
+}
+#root .qi-hot-day::before {
+  content: "\f1b6";
+}
+#root .qi-warm-night::before {
+  content: "\f1b7";
+}
+#root .qi-cold-day::before {
+  content: "\f1b8";
+}
+#root .qi-thunderstorm-and-lightning::before {
+  content: "\f1b9";
+}
+#root .qi-hailstorm::before {
+  content: "\f1ba";
+}
+#root .qi-sea-area-warning::before {
+  content: "\f1bb";
+}
+#root .qi-fishermen-warning::before {
+  content: "\f1bc";
+}
+#root .qi-low-humidity::before {
+  content: "\f1bd";
+}
+#root .qi-accumulated-rain::before {
+  content: "\f1be";
+}
+#root .qi-hazardous-surf-warning::before {
+  content: "\f1bf";
+}
+#root .qi-marine-wind-warning::before {
+  content: "\f1c0";
+}
+#root .qi-road-weather-alert::before {
+  content: "\f1c1";
+}
+#root .qi-thunder-rain::before {
+  content: "\f1c2";
+}
+#root .qi-thunder-rain-and-fog::before {
+  content: "\f1c3";
+}
+#root .qi-damaging-winds::before {
+  content: "\f1c4";
+}
+#root .qi-veld-fire-conditions::before {
+  content: "\f1c5";
+}
+#root .qi-weather-advisory::before {
+  content: "\f1c6";
+}
+#root .qi-snow-warning::before {
+  content: "\f1c7";
+}
+#root .qi-zonda-wind::before {
+  content: "\f1c8";
+}
+#root .qi-severe-weather-warning::before {
+  content: "\f1ca";
+}
+#root .qi-warning-default::before {
+  content: "\f1cb";
+}
+#root .qi-sunny-fill::before {
+  content: "\f1cc";
+}
+#root .qi-cloudy-fill::before {
+  content: "\f1cd";
+}
+#root .qi-few-clouds-fill::before {
+  content: "\f1ce";
+}
+#root .qi-partly-cloudy-fill::before {
+  content: "\f1cf";
+}
+#root .qi-overcast-fill::before {
+  content: "\f1d0";
+}
+#root .qi-clear-night-fill::before {
+  content: "\f1d1";
+}
+#root .qi-cloudy-night-fill::before {
+  content: "\f1d2";
+}
+#root .qi-few-clouds-night-fill::before {
+  content: "\f1d3";
+}
+#root .qi-partly-cloudy-night-fill::before {
+  content: "\f1d4";
+}
+#root .qi-shower-rain-fill::before {
+  content: "\f1d5";
+}
+#root .qi-heavy-shower-rain-fill::before {
+  content: "\f1d6";
+}
+#root .qi-thundershower-fill::before {
+  content: "\f1d7";
+}
+#root .qi-heavy-thunderstorm-fill::before {
+  content: "\f1d8";
+}
+#root .qi-thundershower-with-hail-fill::before {
+  content: "\f1d9";
+}
+#root .qi-light-rain-fill::before {
+  content: "\f1da";
+}
+#root .qi-moderate-rain-fill::before {
+  content: "\f1db";
+}
+#root .qi-heavy-rain-fill::before {
+  content: "\f1dc";
+}
+#root .qi-extreme-rain-fill::before {
+  content: "\f1dd";
+}
+#root .qi-drizzle-rain-fill::before {
+  content: "\f1de";
+}
+#root .qi-storm-fill::before {
+  content: "\f1df";
+}
+#root .qi-heavy-storm-fill::before {
+  content: "\f1e0";
+}
+#root .qi-severe-storm-fill::before {
+  content: "\f1e1";
+}
+#root .qi-freezing-rain-fill::before {
+  content: "\f1e2";
+}
+#root .qi-light-to-moderate-rain-fill::before {
+  content: "\f1e3";
+}
+#root .qi-moderate-to-heavy-rain-fill::before {
+  content: "\f1e4";
+}
+#root .qi-heavy-rain-to-storm-fill::before {
+  content: "\f1e5";
+}
+#root .qi-storm-to-heavy-storm-fill::before {
+  content: "\f1e6";
+}
+#root .qi-heavy-to-severe-storm-fill::before {
+  content: "\f1e7";
+}
+#root .qi-shower-rain-night-fill::before {
+  content: "\f1e8";
+}
+#root .qi-heavy-shower-rain-night-fill::before {
+  content: "\f1e9";
+}
+#root .qi-rain-fill::before {
+  content: "\f1ea";
+}
+#root .qi-light-snow-fill::before {
+  content: "\f1eb";
+}
+#root .qi-moderate-snow-fill::before {
+  content: "\f1ec";
+}
+#root .qi-heavy-snow-fill::before {
+  content: "\f1ed";
+}
+#root .qi-snowstorm-fill::before {
+  content: "\f1ee";
+}
+#root .qi-sleet-fill::before {
+  content: "\f1ef";
+}
+#root .qi-rain-and-snow-fill::before {
+  content: "\f1f0";
+}
+#root .qi-shower-snow-fill::before {
+  content: "\f1f1";
+}
+#root .qi-snow-flurry-fill::before {
+  content: "\f1f2";
+}
+#root .qi-light-to-moderate-snow-fill::before {
+  content: "\f1f3";
+}
+#root .qi-moderate-to-heavy-snow-fill::before {
+  content: "\f1f4";
+}
+#root .qi-heavy-snow-to-snowstorm-fill::before {
+  content: "\f1f5";
+}
+#root .qi-shower-snow-night-fill::before {
+  content: "\f1f6";
+}
+#root .qi-snow-flurry-night-fill::before {
+  content: "\f1f7";
+}
+#root .qi-snow-fill::before {
+  content: "\f1f8";
+}
+#root .qi-mist-fill::before {
+  content: "\f1f9";
+}
+#root .qi-foggy-fill::before {
+  content: "\f1fa";
+}
+#root .qi-haze-fill::before {
+  content: "\f1fb";
+}
+#root .qi-sand-fill::before {
+  content: "\f1fc";
+}
+#root .qi-dust-fill::before {
+  content: "\f1fd";
+}
+#root .qi-duststorm-fill::before {
+  content: "\f1fe";
+}
+#root .qi-sandstorm-fill::before {
+  content: "\f1ff";
+}
+#root .qi-dense-fog-fill::before {
+  content: "\f200";
+}
+#root .qi-strong-fog-fill::before {
+  content: "\f201";
+}
+#root .qi-moderate-haze-fill::before {
+  content: "\f202";
+}
+#root .qi-heavy-haze-fill::before {
+  content: "\f203";
+}
+#root .qi-severe-haze-fill::before {
+  content: "\f204";
+}
+#root .qi-heavy-fog-fill::before {
+  content: "\f205";
+}
+#root .qi-extra-heavy-fog-fill::before {
+  content: "\f206";
+}
+#root .qi-hot-fill::before {
+  content: "\f207";
+}
+#root .qi-cold-fill::before {
+  content: "\f208";
+}
+#root .qi-unknown-fill::before {
+  content: "\f209";
+}
 
 .micro-app-weather-main-TIEcrk {
   height: 100%;
@@ -61,7 +1667,6 @@ a {
 .micro-app-weather-popupModel-cWVFnE .micro-app-weather-dialogPanel-Au4QlG {
   height: 100%;
   width: 100%;
-  overflow: auto;
   position: relative;
 }
 .micro-app-weather-popupModel-cWVFnE .micro-app-weather-dialogTool-fpSxBw {
@@ -424,6 +2029,7 @@ a {
   height: 100%;
   padding: 12px;
   background-color: #000;
+  overflow: hidden;
 }
 .micro-app-weather-layout-HBoKko .micro-app-weather-mainContainer-BFt30f {
   width: 100%;
